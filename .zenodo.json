@@ -1,0 +1,36 @@
+{
+  "title": "Digital Skills for Information Use: an interactive guide",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "description": "<p>Open, interactive book for the course «Competencias digitales para el uso de la información» (Digital Skills for Information Use, 19408) of the Bachelor's degree Transversal Training programme (Formación Transversal) at Universidad Carlos III de Madrid. English edition. It covers the official syllabus (information sources, retrieval, ethical use and plagiarism, references and generative artificial intelligence) with readings, glossary, self-assessment, assessed challenges, labs and short R exercises that run in the browser (webR).</p>",
+  "creators": [
+    {
+      "name": "Sánchez-Núñez, Pablo",
+      "affiliation": "Universidad Carlos III de Madrid",
+      "orcid": "0000-0001-7845-9506"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "access_right": "open",
+  "keywords": [
+    "information literacy",
+    "source evaluation",
+    "information retrieval",
+    "plagiarism",
+    "references",
+    "generative artificial intelligence"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://pablosancheznunez.com/digital-skills-information/",
+      "relation": "isAlternateIdentifier",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.24515144",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    }
+  ]
+}

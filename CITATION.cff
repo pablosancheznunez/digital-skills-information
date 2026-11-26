@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this book, please cite it as below."
+type: book
+title: "Digital Skills for Information Use: an interactive guide"
+version: 1.0.0
+date-released: 2026-11-26
+license: CC-BY-4.0
+url: "https://pablosancheznunez.com/digital-skills-information/"
+repository-code: "https://github.com/pablosancheznunez/digital-skills-information"
+authors:
+  - family-names: "Sánchez-Núñez"
+    given-names: "Pablo"
+    orcid: "https://orcid.org/0000-0001-7845-9506"
+    affiliation: "Universidad Carlos III de Madrid"
+keywords:
+  - information literacy
+  - source evaluation
+  - information retrieval
+  - plagiarism
+  - references
+  - generative artificial intelligence

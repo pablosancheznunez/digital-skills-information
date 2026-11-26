@@ -1,0 +1,76 @@
+---
+engine: markdown
+---
+
+# Guide for teaching staff {#sec-guia}
+
+This guide explains how the book is designed for teaching the course and how to maintain it.
+
+## Correspondence with the course description
+
+The six chapters follow, in the same order, the four blocks and nine units of the official syllabus of **Digital Skills for Information Use** (*Competencias digitales para el uso de la información*, 19408).
+
+| Chapter | Units | Block |
+|---|---|---|
+| Information sources | 1 | Introduction. Information sources |
+| Information retrieval | 2 | Retrieval and ethical use |
+| Ethical use of information and plagiarism | 3 | Retrieval and ethical use |
+| References | 4 and 5 | References |
+| Generative AI: foundations and applications | 6 and 7 | Generative artificial intelligence |
+| Generative AI: ethics, authorship and regulation | 8 and 9 | Generative artificial intelligence |
+
+| Assessment activity (course description) | Weight | Support in the book |
+|---|---|---|
+| Practical assignments and presentations | 70% | **Assessed challenges** (one per chapter) |
+| Final test (minimum 4) | 30% | Contents and required readings; the self-assessments and the Moodle XML question bank serve as practice |
+| Resit (multiple-choice test 50% and practical assignment 50%) | — | Question bank and any of the challenges |
+
+## Assessed challenges
+
+Each chapter ends with a challenge with no hint, solution or automatic marking. Each student chooses their own topic, claim or case, which makes copying harder. Challenges 2 and 4 are linked: the documents found in the search strategy are then managed in Zotero. They are submitted with the `entrega_reto.qmd` template, which includes a common rubric: searching and selecting sources (25%), critical evaluation (25%), ethical use and citation (20%), argumentation (20%) and presentation (10%). The template produces an HTML file with the images embedded, so the submission is a single file; it can also be submitted in the format the teaching staff indicate. No knowledge of R is needed to use it.
+
+Reference solutions and marking criteria for the challenges are not in the public repository.
+
+## Self-assessment in Aula Global
+
+Each chapter's self-assessment questions are exported to **Moodle XML** (*Question bank → Import → Moodle XML format*): one file per chapter and one with the whole bank. Each question keeps its explanation as general feedback, and the bank can be used to prepare the final test and the resit.
+
+**Download the question bank:** [whole book (Moodle XML)](moodle/autoevaluacion_todo.xml) · by chapter: [00](moodle/autoevaluacion_00_r_in_this_book.xml) · [01](moodle/autoevaluacion_01_sources.xml) · [02](moodle/autoevaluacion_02_retrieval.xml) · [03](moodle/autoevaluacion_03_ethics_plagiarism.xml) · [04](moodle/autoevaluacion_04_references.xml) · [05](moodle/autoevaluacion_05_ai_foundations.xml) · [06](moodle/autoevaluacion_06_ai_ethics.xml)
+
+## Interactive activities and labs
+
+As well as the self-assessment, each chapter has **activities with instant feedback** (ordering, classifying and decision scenarios) and several **labs**: searching OpenAlex with Boolean operators, comparing texts like a similarity checker, turning a DOI into an APA reference, verifying the DOIs an AI gives you and playing with a miniature language model. Labs with live data query open APIs (OpenAlex, Crossref and doi.org) directly from the student's browser; nothing is sent to the book's server. In the PDF and EPUB, the activities appear in printed form, with their solution.
+
+The activities are written in Markdown with the `interactivos` extension (see `_extensions/interactivos/interactivos.lua`), so they can be added or changed without programming.
+
+## The role of R
+
+The book uses as little R as possible: four chapters have a short fill-in-the-blanks exercise that shows how a tool works inside (Boolean operators, ordering references, detecting overlaps, verifying DOIs). The chapter [Using R in this book](00-r-in-this-book.qmd) is enough preparation. No challenge requires programming.
+
+## Book features
+
+- **Class slides**: each chapter has slides with the objectives, figures, main tables, the reading, discussion questions and the challenge. They are in [diapositivas/](diapositivas/index.html){target="_blank"}; press F for full screen and S to see the notes.
+- **Student progress**: each chapter shows the exercises solved and the questions answered correctly; the welcome page summarises them all. It is stored only in the student's browser (`localStorage`): teaching staff cannot see it.
+- **Offline use**: a *service worker* (`sw.js`) stores the pages and the R engine after the first visit.
+- **Light and dark mode**, with accessibility audits (WCAG 2.1 AA) in both.
+- **PDF and EPUB** generated with `python3 herramientas/pdf.py`.
+
+## Maintenance
+
+From the root of the repository:
+
+```bash
+python3 herramientas/preparar.py        # sw.js and continuous integration workflow
+python3 herramientas/extraer_r.py       # .R scripts for each chapter
+python3 herramientas/moodle.py          # question bank
+python3 herramientas/figuras.py         # figures
+python3 herramientas/diapositivas.py    # class slides (after quarto render)
+python3 herramientas/pdf.py             # PDF and EPUB
+quarto render
+```
+
+The `.github/workflows/comprobar.yml` workflow renders the book and checks all the exercises, questions and accessibility in light and dark mode in a real browser, and once a week it checks the external links. When you publish a new version, update `version` in `CITATION.cff` and run `preparar.py` again so that browsers refresh their copy.
+
+The data in the exercises are **invented for teaching purposes**; there are no data on real people.
+
+This book is the English edition of [*Competencias digitales para el uso de la información*](https://pablosancheznunez.com/competencias-informacion/).

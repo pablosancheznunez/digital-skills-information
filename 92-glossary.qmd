@@ -1,0 +1,155 @@
+---
+engine: markdown
+---
+
+# Glossary {#sec-glosario}
+
+Terms in the book, ordered by chapter. Each entry links to the chapter where it is explained.
+
+## Information sources
+
+### Information overload {#gl-sobrecarga}
+A situation in which you receive more information than you can process, with effects such as anxiety or feeling less well informed. → [Unit 1](01-sources.qmd)
+
+### Disinformation {#gl-desinformacion}
+False information created or spread with the intention to deceive. → [Unit 1](01-sources.qmd)
+
+### Misinformation {#gl-erronea}
+False information shared without the intention to deceive. → [Unit 1](01-sources.qmd)
+
+### Credibility {#gl-credibilidad}
+The degree to which a source or a message is perceived as trustworthy. Online it is often judged with mental shortcuts (heuristics) such as reputation or endorsement by others. → [Unit 1](01-sources.qmd)
+
+### Lateral reading {#gl-lateral}
+A verification strategy that consists of leaving the page and consulting other sources about it and about what it claims, instead of analysing it only from the inside. → [Unit 1](01-sources.qmd)
+
+### SIFT method {#gl-sift}
+Mike Caulfield's method for verifying information in four steps: stop, investigate the source, find better coverage and trace claims back to the original. → [Unit 1](01-sources.qmd)
+
+### Primary source {#gl-primaria}
+A source containing original information: a research article, a dataset, a law or an interview. Secondary sources analyse or summarise it; tertiary sources help you find it. → [Unit 1](01-sources.qmd)
+
+### Peer review {#gl-pares}
+Evaluation of a piece of work by specialists in the field before it is published. → [Unit 1](01-sources.qmd)
+
+### Altmetrics {#gl-altmetria}
+Measurement of mentions of scientific publications on social media, in the news and in other online sources. It measures attention, not quality. → [Unit 1](01-sources.qmd)
+
+## Information retrieval
+
+### Information need {#gl-necesidad}
+What a person wants to know and why; it is the starting point of every search. → [Unit 2](02-retrieval.qmd)
+
+### Boolean operator {#gl-booleano}
+A word that combines search terms as sets: AND requires all of them, OR accepts any of them and NOT excludes. → [Unit 2](02-retrieval.qmd)
+
+### Truncation {#gl-truncamiento}
+The use of a symbol, usually the asterisk, to retrieve all the endings of a stem. → [Unit 2](02-retrieval.qmd)
+
+### Field searching {#gl-campos}
+A search limited to one part of the record, such as the title, the author or the abstract. → [Unit 2](02-retrieval.qmd)
+
+### Precision {#gl-precision}
+The proportion of retrieved results that are relevant. → [Unit 2](02-retrieval.qmd)
+
+### Recall {#gl-exhaustividad}
+The proportion of all relevant documents that the search retrieves. → [Unit 2](02-retrieval.qmd)
+
+### Berrypicking {#gl-bayas}
+Marcia Bates's model in which searching is a process that changes as you read, picking up useful information at each step. → [Unit 2](02-retrieval.qmd)
+
+### Controlled vocabulary {#gl-controlado}
+A set of standardised terms (thesaurus, subject headings) that a database uses to describe documents and group synonyms. → [Unit 2](02-retrieval.qmd)
+
+## Ethical use of information and plagiarism
+
+### Intellectual property {#gl-propiedad}
+The set of authors' rights over their original creations: moral rights (which cannot be waived) and economic rights. → [Unit 3](03-ethics-plagiarism.qmd)
+
+### Right of quotation {#gl-cita}
+A limit to intellectual property that allows fragments of other people's works to be included for analysis or commentary for teaching or research purposes, stating the source and the author. → [Unit 3](03-ethics-plagiarism.qmd)
+
+### Public domain {#gl-dominio}
+The status of a work whose economic rights have expired and which can be used freely, respecting moral rights. → [Unit 3](03-ethics-plagiarism.qmd)
+
+### Creative Commons licence {#gl-cc}
+A licence with which the author authorises certain uses of their work in advance, combining the conditions BY, SA, NC and ND. → [Unit 3](03-ethics-plagiarism.qmd)
+
+### Plagiarism {#gl-plagio}
+Presenting someone else's work, ideas or words as your own without acknowledging them. → [Unit 3](03-ethics-plagiarism.qmd)
+
+### Paraphrase {#gl-parafrasis}
+Expressing an author's ideas in your own words and structure, accompanied by a citation. → [Unit 3](03-ethics-plagiarism.qmd)
+
+### Patchwriting {#gl-mosaico}
+Copying a text while changing some words or their order, but keeping its structure. It is a form of plagiarism. → [Unit 3](03-ethics-plagiarism.qmd)
+
+### Academic integrity {#gl-integridad}
+A commitment to honesty, trust, fairness, respect and responsibility in study and research. → [Unit 3](03-ethics-plagiarism.qmd)
+
+## References
+
+### Citation {#gl-cita-texto}
+A short marker in the text that points to the source used, such as (Bates, 1989) or [3]. → [Units 4 and 5](04-references.qmd)
+
+### Reference {#gl-referencia}
+The full description of a source in the final list of a piece of work. → [Units 4 and 5](04-references.qmd)
+
+### Citation style {#gl-estilo}
+A set of rules establishing which details citations and references include, in what order and with what punctuation (APA, Vancouver, ISO 690…). → [Units 4 and 5](04-references.qmd)
+
+### Author-date system {#gl-autor-fecha}
+A citation system that identifies the source in the text by surname and year, and orders the list alphabetically. → [Units 4 and 5](04-references.qmd)
+
+### Numeric system {#gl-numerico}
+A citation system that identifies the source with a number and orders the list by order of appearance. → [Units 4 and 5](04-references.qmd)
+
+### DOI {#gl-doi}
+*Digital Object Identifier*. A permanent identifier for a digital document that resolves at `https://doi.org/`. → [Units 4 and 5](04-references.qmd)
+
+### Reference manager {#gl-gestor}
+Software that stores and organises references, inserts citations into the word processor and generates the bibliography in a style. → [Units 4 and 5](04-references.qmd)
+
+### Similarity-checking tool {#gl-originalidad}
+Software that compares a text with large collections of documents and flags overlaps. Its report is an indication, not a verdict of plagiarism. → [Units 4 and 5](04-references.qmd)
+
+## Generative artificial intelligence
+
+### Generative artificial intelligence {#gl-iag}
+AI that produces new content (text, images, audio, code) from patterns learned from large amounts of data. → [Units 6 and 7](05-ai-foundations.qmd)
+
+### Language model {#gl-llm}
+A system trained on large collections of texts to predict the most likely fragment that follows a given text. → [Units 6 and 7](05-ai-foundations.qmd)
+
+### Prompt {#gl-prompt}
+The text with which you ask a generative AI system for something. → [Units 6 and 7](05-ai-foundations.qmd)
+
+### Hallucination {#gl-alucinacion}
+An AI answer that looks correct but is false or invented, such as a non-existent reference. → [Units 6 and 7](05-ai-foundations.qmd)
+
+### Training data {#gl-entrenamiento}
+The collection of data with which a model is trained; it determines what the model knows and the biases it reproduces. → [Units 6 and 7](05-ai-foundations.qmd)
+
+### Retrieval-augmented generation {#gl-rag}
+*RAG*. A technique that combines a language model with a search engine or document collection to answer from what is retrieved. → [Units 6 and 7](05-ai-foundations.qmd)
+
+### Algorithmic bias {#gl-sesgo}
+A systematic error in an automated system that favours or disadvantages certain groups, often inherited from the data. → [Units 8 and 9](06-ai-ethics.qmd)
+
+### AI use statement {#gl-declaracion}
+A text stating which AI tool was used in a piece of work, what for, in which parts and how the result was checked. → [Units 8 and 9](06-ai-ethics.qmd)
+
+### AI Act {#gl-aiact}
+Regulation (EU) 2024/1689, which regulates AI in the European Union with a risk-based approach. → [Units 8 and 9](06-ai-ethics.qmd)
+
+### AI literacy {#gl-alfia}
+The knowledge and skills needed to use AI in an informed way and understand its opportunities, risks and possible harms. → [Units 8 and 9](06-ai-ethics.qmd)
+
+### Explicability {#gl-explicabilidad}
+An ethical principle according to which it must be possible to understand how an AI system works and who is accountable for it. → [Units 8 and 9](06-ai-ethics.qmd)
+
+### Personal data {#gl-personales}
+Any information about an identified or identifiable natural person. → [Units 8 and 9](06-ai-ethics.qmd)
+
+### Informational self-determination {#gl-autodeterminacion}
+Each person's right to decide on the use of their personal data. → [Units 8 and 9](06-ai-ethics.qmd)

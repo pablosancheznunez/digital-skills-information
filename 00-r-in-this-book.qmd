@@ -1,0 +1,121 @@
+---
+engine: markdown
+---
+
+# Using R in this book {#sec-r .unnumbered}
+
+Some chapters have short R exercises that run **in your browser**. You are not going to learn to program: you will use R as a powerful calculator to look inside some information tools. This chapter explains just what you need in ten minutes.
+
+::: {.callout-note appearance="default"}
+## Objectives
+- Run and modify R code in the browser.
+- Store values and text in objects and work with vectors.
+:::
+
+## How the code cells work
+
+Each code block has a **Run Code** button. You can change the code and run it again; **Start Over** restores the original version. The first time you open a page, the browser downloads the R engine (a few seconds).
+
+```{webr}
+#| autorun: true
+results <- 1250          # documents returned by a search
+relevant <- 37           # the ones that are actually useful
+relevant / results       # proportion
+```
+
+`<-` stores a value in an object. A **vector** groups several values with `c()`. Text goes in quotation marks:
+
+```{webr}
+sources <- c("Dialnet", "Google Scholar", "Scopus", "Wikipedia")
+length(sources)                  # how many there are
+"Scopus" %in% sources            # is Scopus there?
+toupper(sources)                 # in capitals
+```
+
+### Exercise 1 {.unnumbered}
+
+A search returns 480 results and, after reviewing them, 24 are relevant. Calculate the proportion of relevant results (the **precision** of the search).
+
+```{webr}
+#| exercise: r_precision
+relevant <- 24
+results <- ______
+relevant / results
+```
+
+::: {.hint exercise="r_precision"}
+Replace the blank with the total number of results.
+:::
+
+::: {.solution exercise="r_precision"}
+```r
+relevant <- 24
+results <- 480
+relevant / results
+```
+0.05: only one result in twenty is useful. In the chapter on retrieval you will see how to improve precision.
+:::
+
+```{webr}
+#| exercise: r_precision
+#| check: true
+if (isTRUE(all.equal(as.numeric(.result), 0.05))) {
+  list(correct = TRUE, message = "Correct: 24 / 480 = 0.05.")
+} else {
+  list(correct = FALSE, message = "Divide 24 by the total number of results (480).")
+}
+```
+
+### Exercise 2 {.unnumbered}
+
+Check whether "Dialnet" is in the vector `sources`.
+
+```{webr}
+#| exercise: r_in
+#| setup: true
+sources <- c("Dialnet", "Google Scholar", "Scopus", "Wikipedia")
+```
+
+```{webr}
+#| exercise: r_in
+"______" %in% sources
+```
+
+::: {.hint exercise="r_in"}
+Write the name exactly as it appears, with a capital first letter.
+:::
+
+::: {.solution exercise="r_in"}
+```r
+"Dialnet" %in% sources
+```
+`TRUE`. If you write "dialnet" in lower case, R says `FALSE`: it is case-sensitive, like some search engines.
+:::
+
+```{webr}
+#| exercise: r_in
+#| check: true
+if (identical(.result, TRUE)) {
+  list(correct = TRUE, message = "Correct: Dialnet is in the vector.")
+} else {
+  list(correct = FALSE, message = "Write \"Dialnet\" with a capital D.")
+}
+```
+
+## Self-assessment
+
+Answer all the questions and press **Show answers**: correct answers turn green, wrong ones red, and you will see your score. You can change your answers and check again. It does not count towards your mark.
+
+::: {.webex-check .webex-box}
+1. In R, text is written in quotation marks. {{< torf true >}}
+2. To create a vector with several values you use the function {{< mcq "length()" "*c()" "toupper()" >}}
+3. `length(c("a", "b", "c"))` returns {{< fitb "3" >}}
+4. To do the exercises in this book you need to install R on your computer. {{< torf false >}}
+:::
+
+::: {.webex-solution boton="See explanations"}
+- Without quotation marks, R would look for an object with that name.
+- `c()` combines values into a vector.
+- Three elements.
+- They run in the browser with webR.
+:::

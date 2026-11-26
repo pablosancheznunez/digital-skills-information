@@ -1,0 +1,165 @@
+---
+engine: markdown
+---
+
+# Verification lab {#sec-lab-verificacion}
+
+This appendix complements unit 1 with a timeline of disinformation, a tool for evaluating sources and an activity for spotting red flags.
+
+## Timeline: disinformation, science and regulation
+
+```{=html}
+<style>
+.cronologia{list-style:none;padding:0;margin:1rem 0;border-left:3px solid var(--bs-primary)}
+.cronologia li{position:relative;padding:0 0 1rem 1.25rem}
+.cronologia li::before{content:"";position:absolute;left:-8px;top:.35rem;width:13px;height:13px;border-radius:50%;background:var(--bs-body-bg);border:3px solid var(--bs-primary)}
+.cr-anio{display:block;font-weight:700;font-size:1.1rem}
+</style>
+<ol class="cronologia" aria-label="Timeline of disinformation"><li><span class="cr-anio">2016</span><span class="cr-texto">Oxford Dictionaries chooses "post-truth" as its word of the year.</span></li><li><span class="cr-anio">2017</span><span class="cr-texto">IFLA publishes the infographic "How to Spot Fake News", based on a FactCheck.org article.</span></li><li><span class="cr-anio">2018</span><span class="cr-texto">Vosoughi, Roy and Aral (<em>Science</em>) show that on Twitter falsehood spreads farther and faster than truth. The EU adopts the Code of Practice on Disinformation.</span></li><li><span class="cr-anio">2020</span><span class="cr-texto">The WHO warns of an "infodemic" during COVID-19.</span></li><li><span class="cr-anio">2022</span><span class="cr-texto">The EU adopts the Digital Services Act and strengthens the Code of Practice.</span></li><li><span class="cr-anio">2023</span><span class="cr-texto">AI-generated images go viral as if they were real photographs.</span></li><li><span class="cr-anio">2024</span><span class="cr-texto">The EU AI Act is adopted, requiring deepfakes to be labelled from August 2026.</span></li></ol>
+```
+
+## Lab: evaluate a source with the CRAAP test {#lab-craap}
+
+::: {.laboratorio}
+::: {.laboratorio-etiqueta}
+Lab · runs in your browser
+:::
+
+The **CRAAP test**, created at the Meriam Library of California State University, Chico, evaluates a source with five criteria. Score a source you are using (from 0 to 10) and look at its profile.
+
+```{ojs}
+//| echo: false
+rangoC = window.Lab.rango
+viewof cActualidad = rangoC("Currency: is it recent enough for your topic? Is it updated?", [0, 10], {value: 7})
+viewof cRelevancia = rangoC("Relevance: does it answer your question at the right level?", [0, 10], {value: 8})
+viewof cAutoridad = rangoC("Authority: who signs it? Do they have credentials and an affiliation?", [0, 10], {value: 4})
+viewof cExactitud = rangoC("Accuracy: does it provide evidence and verifiable sources? Has it been reviewed?", [0, 10], {value: 3})
+viewof cProposito = rangoC("Purpose: does it inform, sell, persuade or entertain?", [0, 10], {value: 5})
+```
+
+```{ojs}
+//| echo: false
+{
+  const crit = [["Currency", cActualidad], ["Relevance", cRelevancia], ["Authority", cAutoridad], ["Accuracy", cExactitud], ["Purpose", cProposito]];
+  const total = crit.reduce((s, c) => s + c[1], 0);
+  const peor = [...crit].sort((a, b) => a[1] - b[1])[0];
+  const barras = crit.map(([n, v], i) => `<g transform="translate(0 ${i * 34})"><text x="0" y="20" font-size="14" fill="currentColor">${n}</text><rect x="110" y="6" width="300" height="20" rx="4" fill="var(--bs-secondary-bg)"/><rect x="110" y="6" width="${v * 30}" height="20" rx="4" fill="${v < 5 ? "#b3261e" : "#1c6b3a"}"/><text x="${118 + v * 30}" y="21" font-size="13" fill="currentColor">${v}${v < 5 ? " ⚠" : ""}</text></g>`).join("");
+  const veredicto = total >= 40 && peor[1] >= 5 ? "A solid source: you can use it, citing it correctly." : total >= 25 ? `Use it with caution and check it against other sources. Its weak point is ${peor[0].toLowerCase()}.` : "An unreliable source: find a better one before using it.";
+  const d = html`<div role="status" aria-live="polite"></div>`;
+  d.innerHTML = `<svg viewBox="0 0 460 172" width="100%" style="max-width:520px" role="img" aria-label="CRAAP profile: ${crit.map(([n, v]) => n + " " + v).join(", ")}" font-family="inherit">${barras}</svg><p><strong>Total: ${total} out of 50.</strong> ${veredicto}</p>${peor[0] === "Accuracy" || peor[0] === "Authority" ? '<p class="small">Tip: apply <strong>lateral reading</strong> (open other tabs and search for what others say about the source) before reading on.</p>' : ""}`;
+  return d;
+}
+```
+
+Criteria below 5 are marked with ⚠. A high score does not replace critical judgement: the test is a guide, not a formula.
+:::
+
+## Activity: red flag or not?
+
+Read this fictitious post and classify each detail.
+
+::: {.callout-note appearance="simple" icon="false"}
+## "DEFINITIVE STUDY! Dark chocolate cures insomnia"
+Published on *TotalHealth24.info* · unsigned · date: "3 years ago", shared 40,000 times today. The article links to a study with 12 participants funded by a chocolate brand. At the end there is a discount code to buy "therapeutic chocolate".
+:::
+
+::: {.clasificar #ia-lab-alertas titulo="Classify each detail of the post" categorias="Red flag|Neutral detail"}
+- The article is not signed → Red flag // Authorship cannot be checked (IFLA: check the author).
+- The headline says "definitive" and uses capitals → Red flag // Sensationalist language: science is rarely definitive with a single study.
+- The study has 12 participants → Red flag // Such a small sample does not allow generalisation.
+- The study is funded by a chocolate brand → Red flag // Possible conflict of interest.
+- It includes a discount code → Red flag // Its purpose is to sell (CRAAP: purpose).
+- It was published 3 years ago and is circulating today → Red flag // Check the date: later studies may have superseded it.
+- The article links to the original study → Neutral detail // It is good practice; now you need to read the study and check what it really says.
+- 40,000 people have shared it → Neutral detail // Popularity says nothing about whether it is true.
+:::
+
+## Lab: misleading charts {#lab-graficos}
+
+::: {.laboratorio}
+::: {.laboratorio-etiqueta}
+Lab · runs in your browser
+:::
+
+The same data can tell different stories depending on how they are drawn. These are a library's (fictitious) monthly loans. Change the chart's design decisions and see how much loans appear to grow.
+
+```{ojs}
+//| echo: false
+casG = window.Lab.casilla
+selG = window.Lab.seleccion
+viewof cero = casG("The vertical axis starts at 0", {value: true})
+viewof periodo = selG("Period shown", ["The whole year", "Only the last 3 months"], {value: "The whole year"})
+```
+
+```{ojs}
+//| echo: false
+{
+  const meses = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const v = [1180, 1215, 1240, 1195, 1160, 980, 640, 610, 1120, 1190, 1205, 1260];
+  const ini = periodo.startsWith("Only") ? 9 : 0;
+  const m = meses.slice(ini), d = v.slice(ini);
+  const ymin = cero ? 0 : Math.min(...d) - 20, ymax = Math.max(...d) + 20;
+  const W = 520, H = 240, bw = (W - 60) / d.length;
+  const y = (x) => H - 30 - (x - ymin) / (ymax - ymin) * (H - 50);
+  let svg = `<svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:560px" role="img" aria-label="Bar chart of loans from ${m[0]} to ${m[m.length - 1]}; the axis starts at ${Math.round(ymin)}" font-family="inherit">`;
+  [ymin, (ymin + ymax) / 2, ymax].forEach((t) => svg += `<line x1="44" x2="${W - 10}" y1="${y(t)}" y2="${y(t)}" stroke="currentColor" stroke-opacity="0.15"/><text x="40" y="${y(t) + 4}" font-size="11" text-anchor="end" fill="currentColor">${Math.round(t)}</text>`);
+  d.forEach((x, i) => svg += `<rect x="${50 + i * bw + 3}" y="${y(x)}" width="${bw - 6}" height="${H - 30 - y(x)}" fill="#2a78d6" rx="3"/><text x="${50 + i * bw + bw / 2}" y="${H - 12}" font-size="11" text-anchor="middle" fill="currentColor">${m[i]}</text>`);
+  svg += "</svg>";
+  const primero = d[0], ultimo = d[d.length - 1];
+  const real = (ultimo - primero) / primero * 100;
+  const visual = ((H - 30 - y(ultimo)) - (H - 30 - y(primero))) / (H - 30 - y(primero)) * 100;
+  const f = (x) => (x > 0 ? "+" : "") + x.toFixed(0) + "%";
+  const msgs = [];
+  if (!cero) msgs.push("The truncated axis turns a small difference into a huge one: compare the height of the bars with the numbers on the axis.");
+  if (ini > 0) msgs.push("Showing only three months hides the summer drop and the context of the year: it is cherry picking.");
+  const dd = html`<div role="status" aria-live="polite"></div>`;
+  dd.innerHTML = `${svg}<p>From <strong>${m[0]}</strong> to <strong>${m[m.length - 1]}</strong> loans change by <strong>${f(real)}</strong>, but the bar grows by <strong>${f(visual)}</strong>${Math.abs(visual - real) > 10 ? " ⚠" : ""}.</p>${msgs.length ? `<ul>${msgs.map((x) => `<li>${x}</li>`).join("")}</ul>` : "<p>With the axis starting at 0 and the full period, the height of the bars is proportional to the data.</p>"}`;
+  return dd;
+}
+```
+
+In **bar** charts the axis must start at 0, because we compare lengths. In **line** charts the axis can be narrowed if this is clearly indicated, because we compare slopes.
+:::
+
+## Scenario: is this photo real?
+
+::: {.escenario #ia-verif-foto titulo="A widely shared photo"}
+You receive by messaging app a photo of a flood in a library with the text "This is what your campus library looks like today". It has been forwarded many times.
+
+### First reaction {#vf-inicio}
+What do you do before forwarding it?
+
+- [I do a reverse image search](#vf-inversa)
+- [I forward it with "Does anyone know if this is true?"](#vf-reenvia)
+- [I trust it: someone I trust sent it](#vf-confia)
+
+### Reverse image search {#vf-inversa}
+The reverse search (for example, with Google Lens, Bing or TinEye) shows that the photo was already circulating four years ago with another caption. What do you do now?
+
+- [I look for the earliest post and its original source](#vf-origen)
+- [I conclude it is fake and say so in the group, nothing more](#vf-rapido)
+
+### Back to the origin {#vf-origen .final .bien}
+The earliest post is from a local newspaper in another city and shows a different library. You reply in the group with a link to the original source and a neutral sentence: "The photo is real, but it is of another library and from 2021". You have applied SIFT: **stop, investigate the source, find better coverage and trace the original context**.
+
+### Hasty conclusion {#vf-rapido .final .regular}
+You are right that the message is misleading, but "it is fake" is not accurate: the photo is real and **taken out of context**. Providing the original source is more convincing than a statement.
+
+### Forwarding with a question {#vf-reenvia .final .mal}
+Even if you ask, forwarding amplifies the hoax: many people will see the photo and not the question. Check before sharing.
+
+### Trusting the sender {#vf-confia .final .mal}
+The person may be trustworthy and have been deceived. Trust in whoever shares something does not replace verifying the source.
+:::
+
+## Practise with real cases
+
+- [Full Fact](https://fullfact.org/) (UK), [Maldita.es](https://maldita.es) and [Newtral](https://www.newtral.es) (Spain) publish fact-checks; they are part of the International Fact-Checking Network (IFCN).
+- The [European Digital Media Observatory (EDMO)](https://edmo.eu) brings together research and fact-checks from across the EU.
+- The [IFLA infographic](https://repository.ifla.org/handle/20.500.14598/195) has been translated into dozens of languages (37 according to IFLA).
+
+## Watch and keep learning
+
+These are links, not embedded videos: the video opens on the publisher's website, so this page does not load third-party trackers.
+
+- **[Check Yourself with Lateral Reading (Crash Course Navigating Digital Information #3)](https://www.youtube.com/watch?v=GoQG6Tin-1E)** — CrashCourse, with the Stanford History Education Group and MediaWise. About 14 minutes on lateral reading; part of a 10-episode series (2019).
