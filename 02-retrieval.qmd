@@ -31,9 +31,9 @@ Bates, M. J. (1989). [The design of browsing and berrypicking techniques for the
 
 ### Further reading {.unnumbered}
 
-- Marchionini, G. (2006). [Exploratory search: From finding to understanding](https://doi.org/10.1145/1121949.1121979). *Communications of the ACM*, 49(4), 41-46. Searching as learning.
-- Cruz Gil, C. (2015). *Modelos de búsqueda y recuperación de la información*. Trea (core course bibliography).
-- Pacios Lozano, A. R. (coord.) (2013). *Técnicas de búsqueda y uso de la información*. Ramón Areces (core bibliography).
+- @marchionini2006 — Searching as learning.
+- @cruzgil2015 — Core course bibliography.
+- @pacioslozano2013 — Core bibliography.
 
 ## 1. From the need to the strategy
 
@@ -44,7 +44,7 @@ Every search begins with an **information need**: what you want to know and why.
 3. **Find synonyms and related terms** for each concept, in English and, if useful, in other languages (*smartphone*, *mobile phone*, *cell phone*; *academic performance*, *achievement*; *university students*, *undergraduates*).
 4. **Decide the limits**: language, dates, type of document.
 
-Bates (1989) showed that real searching is not a single query that returns the perfect set, but a process she called ***berrypicking***: the need changes as you read, you pick up useful pieces at each step and you use a variety of techniques (following an article's references, searching for an author, browsing a journal). Marchionini (2006) calls **exploratory search** the kind that is used to learn about a topic, as opposed to looking up a single fact.
+@bates1989 showed that real searching is not a single query that returns the perfect set, but a process she called ***berrypicking***: the need changes as you read, you pick up useful pieces at each step and you use a variety of techniques (following an article's references, searching for an author, browsing a journal). @marchionini2006 calls **exploratory search** the kind that is used to learn about a topic, as opposed to looking up a single fact.
 
 ## 2. Operators and techniques
 

@@ -12,6 +12,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>To broaden a search with synonyms you use the operator ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[OR adds sets together: any of the terms.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -44,6 +47,9 @@
     <questiontext format="html">
       <text><![CDATA[<p><code>universit*</code> is an example of ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[The asterisk retrieves all endings of the stem.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -62,6 +68,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Adding concepts with AND usually increases precision and reduces recall. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Each AND requires one more concept: fewer, more relevant results.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -85,6 +94,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>According to Bates, real searching is a single query that returns the perfect set of documents. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It is a berrypicking process that changes as you read.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -108,6 +120,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>If I find 20 documents and 5 are useful, precision is ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[5 / 20 = 0.25.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -146,6 +161,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>What are quotation marks used for in a search?</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Quotation marks fix the whole phrase, in order.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -178,6 +196,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>To search the biomedical literature comprehensively, the most suitable platform is ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[PubMed is the specialised biomedical database.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -210,6 +231,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>The proportion of all relevant documents that a search retrieves is its ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Recall is also called sensitivity.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -242,6 +266,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>A thesaurus is an example of a ____ vocabulary</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It standardises terms and groups synonyms.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -260,6 +287,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>In <code>(mobile OR smartphone) AND performance</code>, the parentheses make OR be resolved before AND. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Just like in an arithmetic operation.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>

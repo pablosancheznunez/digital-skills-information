@@ -90,7 +90,7 @@ A commitment to honesty, trust, fairness, respect and responsibility in study an
 ## References
 
 ### Citation {#gl-cita-texto}
-A short marker in the text that points to the source used, such as (Bates, 1989) or [3]. → [Units 4 and 5](04-references.qmd)
+A short marker in the text that points to the source used, such as [@bates1989] or [3]. → [Units 4 and 5](04-references.qmd)
 
 ### Reference {#gl-referencia}
 The full description of a source in the final list of a piece of work. → [Units 4 and 5](04-references.qmd)

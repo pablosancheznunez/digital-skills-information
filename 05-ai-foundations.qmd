@@ -32,8 +32,8 @@ Walters, W. H.; Wilder, E. I. (2023). [Fabrication and errors in the bibliograph
 
 ### Further reading {.unnumbered}
 
-- Kasneci, E. et al. (2023). [ChatGPT for good? On opportunities and challenges of large language models for education](https://doi.org/10.1016/j.lindif.2023.102274). *Learning and Individual Differences*, 103, 102274.
-- Bender, E. M.; Gebru, T.; McMillan-Major, A.; Shmitchell, S. (2021). [On the dangers of stochastic parrots: Can language models be too big?](https://doi.org/10.1145/3442188.3445922) In *Proceedings of FAccT '21* (pp. 610-623). ACM.
+- @kasneci2023
+- @bender2021
 
 ::: {.callout-note appearance="simple"}
 The generative AI block covers units 6 to 9 of the syllabus. This chapter covers foundations, applications and technical challenges (units 6 and 7); the next one covers ethics, authorship and regulation (units 8 and 9).
@@ -45,7 +45,7 @@ The generative AI block covers units 6 to 9 of the syllabus. This chapter covers
 
 Three important consequences follow:
 
-- The model produces what is **plausible**, not necessarily what is **true**. Bender et al. (2021) critically called them "stochastic parrots": they combine linguistic forms without their own access to meaning or facts.
+- The model produces what is **plausible**, not necessarily what is **true**. @bender2021 critically called them "stochastic parrots": they combine linguistic forms without their own access to meaning or facts.
 - What it knows depends on its **training data**: it may not know recent facts and may reproduce the biases in those data.
 - How you ask matters: a clear **prompt**, with context, goal and format, gives better results.
 
@@ -71,13 +71,13 @@ Its **technical challenges** define the open lines of research:
 
 ## 3. Hallucinations
 
-A **hallucination** is an answer that looks correct but is false or invented. In academic work, the most dangerous one is the **fabricated reference**: an article with plausible authors, title, journal and DOI that does not exist. Walters and Wilder (2023) asked ChatGPT for short literature reviews and checked every reference: a large share of GPT-3.5's citations were fabricated, and with GPT-4 a smaller but noticeable proportion remained; in addition, many real references contained errors.
+A **hallucination** is an answer that looks correct but is false or invented. In academic work, the most dangerous one is the **fabricated reference**: an article with plausible authors, title, journal and DOI that does not exist. @walters2023 asked ChatGPT for short literature reviews and checked every reference: a large share of GPT-3.5's citations were fabricated, and with GPT-4 a smaller but noticeable proportion remained; in addition, many real references contained errors.
 
 ![How a fabricated reference arises. The model combines plausible pieces (a real author, a real journal, a title on the topic) into a reference that does not exist; only checking in a database reveals it.](figuras/u5_alucinacion.svg){#fig-alucinacion fig-alt="On the left, three pieces: an author surname from the field, the name of a real journal and a title on the topic. They combine into a complete, plausible reference. An arrow leads to a magnifying glass checking a database, which returns: not found."}
 
 ## 4. Responsible uses for study
 
-Kasneci et al. (2023) review opportunities (tailored explanations, writing support, personalised practice) and risks (dependence, errors, bias, plagiarism). A practical criterion is to distinguish uses by what you delegate:
+@kasneci2023 review opportunities (tailored explanations, writing support, personalised practice) and risks (dependence, errors, bias, plagiarism). A practical criterion is to distinguish uses by what you delegate:
 
 | Use | Risk | Good practice |
 |---|---|---|
@@ -272,7 +272,7 @@ ${verificacion.filas.map(f => html`<tr><td><code>${f.d}</code></td><td>${f.estad
 </tbody></table>`
 ```
 
-A DOI that exists is not enough: check that **the title, authors and year** match the reference the AI gave you. Walters and Wilder (2023) found, as well as fabricated references, many real references with errors in their details.
+A DOI that exists is not enough: check that **the title, authors and year** match the reference the AI gave you. @walters2023 found, as well as fabricated references, many real references with errors in their details.
 :::
 
 ## Lab: review your prompt {#lab-u5-prompt}

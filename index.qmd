@@ -14,7 +14,7 @@ This is the English edition of the book. The [Spanish edition](https://pablosanc
 **ORCID:** [0000-0001-7845-9506](https://orcid.org/0000-0001-7845-9506)\
 **Website:** [pablosancheznunez.com](https://pablosancheznunez.com)
 
-**DOI:** [10.5281/zenodo.XXXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXXX).
+**DOI:** [10.5281/zenodo.24550050](https://doi.org/10.5281/zenodo.24550050).
 
 ## Course objectives
 
@@ -86,6 +86,6 @@ This summary follows the official course description; if there is any difference
 
 Written by Pablo Sánchez-Núñez (Universidad Carlos III de Madrid). Texts and figures are released under a [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) licence and the code under the MIT licence. The source code is on [GitHub](https://github.com/pablosancheznunez/digital-skills-information).
 
-> Sánchez-Núñez, P. (2026). *Digital Skills for Information Use: an interactive guide*. Universidad Carlos III de Madrid. Zenodo. <https://doi.org/10.5281/zenodo.XXXXXXXX>
+> Sánchez-Núñez, P. (2026). *Digital Skills for Information Use: an interactive guide*. Universidad Carlos III de Madrid. Zenodo. <https://doi.org/10.5281/zenodo.24550050>
 
-DOI for all versions: [10.5281/zenodo.XXXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXXX); it always points to the latest edition. Each edition also has its own DOI, listed on the [Zenodo record](https://doi.org/10.5281/zenodo.XXXXXXXX).
+DOI for all versions: [10.5281/zenodo.24550050](https://doi.org/10.5281/zenodo.24550050); it always points to the latest edition. Each edition also has its own DOI, listed on the [Zenodo record](https://doi.org/10.5281/zenodo.24550050).

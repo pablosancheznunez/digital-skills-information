@@ -31,14 +31,14 @@ Gilmour, R.; Cobus-Kuo, L. (2011). [Reference management software: A comparative
 
 ### Further reading {.unnumbered}
 
-- Foltýnek, T. et al. (2020). [Testing of support tools for plagiarism detection](https://doi.org/10.1186/s41239-020-00192-4). *International Journal of Educational Technology in Higher Education*, 17, 46. What similarity-checking tools detect and what they miss.
-- American Psychological Association. [APA Style](https://apastyle.apa.org/). Official guide to APA 7 style.
+- @foltynek2020 — What similarity-checking tools detect and what they miss.
+- @americanpsychologicasf — Official guide to APA 7 style.
 
 ## 1. Why cite
 
 Citing serves to **acknowledge** other people's work, **show** what your statements are based on, **allow** readers to find the sources and **distinguish** your ideas from those of others. Academic work has two related elements:
 
-- The **in-text citation**: a short marker where you use the source, such as (Bates, 1989) or [3].
+- The **in-text citation**: a short marker where you use the source, such as [@bates1989] or [3].
 - The **reference**: the full description of the source in the final list.
 
 ## 2. Citation styles
@@ -47,12 +47,12 @@ A **style** sets which details are included, in what order and with what punctua
 
 | System | In-text citation | Order of the list | Styles |
 |---|---|---|---|
-| **Author-date** | (Metzger & Flanagin, 2013) | Alphabetical by surname | APA 7, Harvard, Chicago author-date |
+| **Author-date** | [@metzger2013] | Alphabetical by surname | APA 7, Harvard, Chicago author-date |
 | **Numeric** | [1] or superscript | In order of appearance | Vancouver, IEEE, numeric ISO 690 |
 
 **APA 7th edition** is widely used in this degree. What matters is to choose a style, apply it **consistently** and follow the one required by each lecturer or journal.
 
-![Anatomy of a journal article reference in APA 7 style: authors, year, article title, journal in italics, volume in italics, issue, pages and DOI as a link.](figuras/u4_apa.svg){#fig-apa fig-alt="The Bates (1989) reference in APA style, with each part underlined in a colour and labelled below: author, year, article title, journal, volume, issue, pages and DOI."}
+![Anatomy of a journal article reference in APA 7 style: authors, year, article title, journal in italics, volume in italics, issue, pages and DOI as a link.](figuras/u4_apa.svg){#fig-apa fig-alt="The @bates1989 reference in APA style, with each part underlined in a colour and labelled below: author, year, article title, journal, volume, issue, pages and DOI."}
 
 ## 3. References for the most common document types (APA 7)
 
@@ -68,7 +68,7 @@ The **DOI** (*Digital Object Identifier*) is a permanent identifier for a digita
 
 ## 4. Reference managers
 
-A **reference manager** stores documents with their details, organises them, inserts citations into the word processor and generates the bibliography in any style. Gilmour and Cobus-Kuo (2011) compared several managers and found that **they all make mistakes** when generating references (capitalisation, missing data, name formats), so **you must always check them**. The most widely used are **[Zotero](https://www.zotero.org/)** (free and open source), Mendeley and EndNote.
+A **reference manager** stores documents with their details, organises them, inserts citations into the word processor and generates the bibliography in any style. @gilmour2011 compared several managers and found that **they all make mistakes** when generating references (capitalisation, missing data, name formats), so **you must always check them**. The most widely used are **[Zotero](https://www.zotero.org/)** (free and open source), Mendeley and EndNote.
 
 A recommended workflow:
 
@@ -80,7 +80,7 @@ A recommended workflow:
 
 ## 5. Similarity-checking tools
 
-Universities use software that compares assignments with large text databases and flags overlaps. Foltýnek et al. (2020) evaluated many of these tools and concluded that they detect verbatim copying well but struggle with modifications (paraphrase, synonyms, translations), and that none is perfect. The similarity report is an **indication**, not a verdict: a well-made quotation matches its source and is not plagiarism, and an uncited paraphrase may not match and still be plagiarism.
+Universities use software that compares assignments with large text databases and flags overlaps. @foltynek2020 evaluated many of these tools and concluded that they detect verbatim copying well but struggle with modifications (paraphrase, synonyms, translations), and that none is perfect. The similarity report is an **indication**, not a verdict: a well-made quotation matches its source and is not plagiarism, and an uncited paraphrase may not match and still be plagiarism.
 
 ## R practice: building and ordering references
 
@@ -125,7 +125,7 @@ The function that sorts a vector is `sort()`.
 sorted_refs <- sort(refs)
 sorted_refs[1]
 ```
-Bates (1989): "Bat" comes before "Baw". Managers sort like this, letter by letter.
+@bates1989: "Bat" comes before "Baw". Managers sort like this, letter by letter.
 :::
 
 ```{webr}
@@ -145,7 +145,7 @@ if (startsWith(as.character(.result), "Bates")) {
 Lab · live data from Crossref
 :::
 
-Type a DOI and the lab asks [Crossref](https://www.crossref.org/) for the reference in **APA 7**, just as a reference manager does. Then **check it**: look for extra capital letters, missing italics or incomplete data. This is exactly what Gilmour and Cobus-Kuo (2011) found.
+Type a DOI and the lab asks [Crossref](https://www.crossref.org/) for the reference in **APA 7**, just as a reference manager does. Then **check it**: look for extra capital letters, missing italics or incomplete data. This is exactly what @gilmour2011 found.
 
 ```{ojs}
 //| echo: false
@@ -259,7 +259,7 @@ Typical errors: titles in capitals, corporate authors split as people, chapters 
 :::
 
 ::: {.clasificar #ia-u4-sistema titulo="Author-date or numeric?" categorias="Author-date|Numeric"}
-- (Bates, 1989) → Author-date
+- [@bates1989] → Author-date
 - [3] → Numeric
 - List ordered alphabetically by surname → Author-date
 - List ordered by order of appearance → Numeric

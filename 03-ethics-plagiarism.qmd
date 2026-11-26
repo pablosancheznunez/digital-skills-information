@@ -32,7 +32,7 @@ Pecorari, D.; Petrić, B. (2014). [Plagiarism in second-language writing](https:
 ### Further reading {.unnumbered}
 
 - [Royal Legislative Decree 1/1996, Spanish Intellectual Property Act](https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930) (in Spanish). Consolidated text; article 32 regulates quotations.
-- Creative Commons. [Licenses](https://creativecommons.org/licenses/). What each licence allows.
+- @creativecommonssf
 
 ## 1. Information ethics
 
@@ -53,7 +53,7 @@ The **right of quotation** (art. 32) allows you to include fragments of other pe
 
 ## 3. What plagiarism is
 
-**Plagiarism** is presenting someone else's work, ideas or words as your own without acknowledging them. Pecorari and Petrić (2014) distinguish **intentional** plagiarism from the kind that comes from not knowing how to write with sources, especially when learning to write in another language or in a new academic genre. Both are plagiarism, but the second is prevented by learning.
+**Plagiarism** is presenting someone else's work, ideas or words as your own without acknowledging them. @pecorari2014 distinguish **intentional** plagiarism from the kind that comes from not knowing how to write with sources, especially when learning to write in another language or in a new academic genre. Both are plagiarism, but the second is prevented by learning.
 
 | Type | What it is |
 |---|---|

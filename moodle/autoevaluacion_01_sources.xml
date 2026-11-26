@@ -12,6 +12,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Forwarding an ineffective home remedy believing it works is a case of ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It is false, but without intent to deceive.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -44,6 +47,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>According to Pennycook and Rand, many people share fake news mainly through a lack of ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[A pause to think improves judgement.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -62,6 +68,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Lateral reading consists of analysing the page itself in depth before leaving it. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[That is vertical reading; lateral reading leaves the page to check it.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -85,6 +94,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>The last SIFT step, tracing to the original, looks for the ____ source</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[The original source of the claim.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -117,6 +129,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Which heuristic do we use when we trust a website because it has many positive reviews? ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Endorsement by others: reviews, likes, recommendations.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -149,6 +164,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>A review article summarising many studies is a ____ source</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It summarises and analyses primary sources.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -181,6 +199,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>What do social media mentions of an article measure?</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Altmetrics measure attention, not quality or truth.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -213,6 +234,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Spreading someone's real personal data to harm them is ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It is true, but used to cause harm.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -245,6 +269,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>A law published in the Spanish Official State Gazette (BOE) is a ____ source</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It is the original text of the law.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -277,6 +304,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>A preprint has already passed peer review. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It is a version before review.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>

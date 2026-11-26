@@ -32,13 +32,13 @@ Metzger, M. J.; Flanagin, A. J. (2013). [Credibility and trust of information in
 
 ### Further reading {.unnumbered}
 
-- Bawden, D.; Robinson, L. (2009). [The dark side of information: Overload, anxiety and other paradoxes and pathologies](https://doi.org/10.1177/0165551508095781). *Journal of Information Science*, 35(2), 180-191. Information overload and its effects.
-- Pennycook, G.; Rand, D. G. (2021). [The psychology of fake news](https://doi.org/10.1016/j.tics.2021.02.007). *Trends in Cognitive Sciences*, 25(5), 388-402. Why we believe and share fake news.
-- Sugimoto, C. R.; Work, S.; Larivière, V.; Haustein, S. (2017). [Scholarly use of social media and altmetrics: A review of the literature](https://doi.org/10.1002/asi.23833). *Journal of the Association for Information Science and Technology*, 68(9), 2037-2062.
+- @bawden2009 — Information overload and its effects.
+- @pennycook2021 — Why we believe and share fake news.
+- @sugimoto2017
 
 ## 1. Information, overload and false information
 
-Accessing information has never been so easy, and knowing which information is reliable has never been so hard. Bawden and Robinson (2009) describe the "dark side" of information: **information overload** (more information than can be processed), the anxiety it causes and other paradoxical effects, such as feeling less informed the more information you receive.
+Accessing information has never been so easy, and knowing which information is reliable has never been so hard. @bawden2009 describe the "dark side" of information: **information overload** (more information than can be processed), the anxiety it causes and other paradoxical effects, such as feeling less informed the more information you receive.
 
 When it comes to false information, it is useful to distinguish:
 
@@ -48,11 +48,11 @@ When it comes to false information, it is useful to distinguish:
 | **Disinformation** | False and created or spread to deceive | A campaign with invented data to influence an election |
 | **Malinformation** | True, but used to cause harm | Publishing someone's real personal data |
 
-Pennycook and Rand (2021) show that many people share false information not so much because of ideological bias as because of **inattention**: they do not stop to think whether it is true before sharing it. A short pause improves judgement.
+@pennycook2021 show that many people share false information not so much because of ideological bias as because of **inattention**: they do not stop to think whether it is true before sharing it. A short pause improves judgement.
 
 ## 2. Critical, reflective and proactive use
 
-Metzger and Flanagin (2013) explain that, online, people do not assess credibility systematically but with **mental shortcuts** (heuristics): **reputation** (a well-known brand seems reliable), **endorsement** by others (many reviews or likes), **consistency** (what is repeated on several sites), **expectancy violation** (a sloppy design or errors make us suspicious) and **persuasive intent** (if it looks like they want to sell us something, we distrust it). These shortcuts are useful, but they can be exploited: a fake website can imitate a well-known brand and reviews can be bought.
+@metzger2013 explain that, online, people do not assess credibility systematically but with **mental shortcuts** (heuristics): **reputation** (a well-known brand seems reliable), **endorsement** by others (many reviews or likes), **consistency** (what is repeated on several sites), **expectancy violation** (a sloppy design or errors make us suspicious) and **persuasive intent** (if it looks like they want to sell us something, we distrust it). These shortcuts are useful, but they can be exploited: a fake website can imitate a well-known brand and reviews can be bought.
 
 Using information critically means replacing the shortcut with a check when it matters. For this, **lateral reading** works better than vertical reading: instead of analysing the page in depth (it may be designed to look reliable), you open other tabs to find out what **others** say about that source and that claim. This is what professional fact-checkers do.
 
@@ -83,7 +83,7 @@ To select them, the key question is **what do I need**: a definition, up-to-date
 
 ## 4. Social media as a source of scientific information
 
-Social media is increasingly used to spread and discuss science. Sugimoto et al. (2017) review how researchers use it and how these mentions are measured (**altmetrics**). For a student, social media can help you **discover** recent research and debates, but it is not the source: you need to get to the original article. Remember that:
+Social media is increasingly used to spread and discuss science. @sugimoto2017 review how researchers use it and how these mentions are measured (**altmetrics**). For a student, social media can help you **discover** recent research and debates, but it is not the source: you need to get to the original article. Remember that:
 
 - A viral post about a study may exaggerate or misinterpret its results.
 - Social media mentions measure **attention**, not quality or truth.
@@ -189,7 +189,7 @@ Decide whether each case is misinformation, disinformation or malinformation.
 :::
 
 ::: {.clasificar #ia-u1-heuristicos titulo="Which mental shortcut is at work?" categorias="Reputation|Endorsement|Consistency|Expectancy violation|Persuasive intent"}
-Metzger and Flanagin (2013) describe five credibility heuristics. Identify which one is at work in each situation.
+@metzger2013 describe five credibility heuristics. Identify which one is at work in each situation.
 
 - You trust an article because it appears on the website of a well-known university → Reputation
 - You choose a hotel because it has 4,000 five-star reviews → Endorsement

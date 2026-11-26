@@ -32,11 +32,11 @@ Floridi, L.; Cowls, J. (2019). [A unified framework of five principles for AI in
 ### Further reading {.unnumbered}
 
 - [Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence](https://eur-lex.europa.eu/eli/reg/2024/1689/oj). *Official Journal of the European Union*.
-- Bender, E. M. et al. (2021). [On the dangers of stochastic parrots](https://doi.org/10.1145/3442188.3445922). Environmental costs and biases of large models.
+- @bender2021a — Environmental costs and biases of large models.
 
 ## 1. Ethical principles of AI
 
-Floridi and Cowls (2019) compared the main international statements on AI ethics and summarised them in **five principles**:
+@floridi2019 compared the main international statements on AI ethics and summarised them in **five principles**:
 
 | Principle | What it means |
 |---|---|
@@ -54,7 +54,7 @@ The first four come from bioethics; the fifth is specific to AI and makes the ot
 - **Consent, privacy and informational self-determination**: **informational self-determination** is each person's right to decide what is done with their personal data; in Spain, the Constitutional Court recognises it as the fundamental right to data protection. Models are often trained on data collected from the internet without their authors' consent, and what you write into an assistant may be stored and, depending on the service, used to train models. Do not enter your own or other people's personal data, or confidential documents, and check the service's privacy settings.
 - **Authorship and intellectual property**: a generated text is not yours; moreover, models are trained on protected works, an open legal debate.
 - **Dependence and learning**: delegating to AI what the course wants you to learn prevents you from learning it.
-- **Environmental cost**: training and using large models consumes a lot of energy and water (Bender et al., 2021).
+- **Environmental cost**: training and using large models consumes a lot of energy and water [@bender2021].
 
 ## 3. Responsibility, authorship and transparency
 

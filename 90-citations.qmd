@@ -10,12 +10,12 @@ Examples of references in **APA style, 7th edition**, with documents that appear
 
 | Case | Parenthetical citation | Narrative citation |
 |---|---|---|
-| One author | (Bates, 1989) | Bates (1989) |
-| Two authors | (Metzger & Flanagin, 2013) | Metzger and Flanagin (2013) |
-| Three or more | (Sugimoto et al., 2017) | Sugimoto et al. (2017) |
+| One author | [@bates1989] | @bates1989 |
+| Two authors | [@metzger2013] | @metzger2013 |
+| Three or more | [@sugimoto2017] | @sugimoto2017 |
 | Organisation | (American Psychological Association, 2020) | American Psychological Association (2020) |
 | Direct quotation | (Bates, 1989, p. 410) | Bates (1989, p. 410) |
-| Several works | (Bates, 1989; Marchionini, 2006) | — |
+| Several works | [@bates1989; Marchionini, 2006) | — |
 
 Use "&" between two authors inside parentheses and "and" in narrative citations. Quotations of fewer than 40 words go in quotation marks; longer ones go in an indented block without quotation marks.
 

@@ -2,7 +2,15 @@ cff-version: 1.2.0
 message: "If you use this book, please cite it as below."
 type: book
 title: "Digital Skills for Information Use: an interactive guide"
-version: 1.0.0
+version: 1.1.0
+doi: "10.5281/zenodo.24550050"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24550050"
+    description: "DOI for all versions (concept DOI)"
+  - type: doi
+    value: "10.5281/zenodo.24550051"
+    description: "DOI of version 1.0.0"
 date-released: 2026-11-26
 license: CC-BY-4.0
 url: "https://pablosancheznunez.com/digital-skills-information/"

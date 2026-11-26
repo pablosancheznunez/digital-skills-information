@@ -1,6 +1,6 @@
 # Units 4 and 5. References
 # Digital Skills for Information Use
-# Pablo Sánchez-Núñez (UC3M) · https://doi.org/10.5281/zenodo.XXXXXXXX
+# Pablo Sánchez-Núñez (UC3M) · https://doi.org/10.5281/zenodo.24550050
 # Code licence: MIT · Book: https://pablosancheznunez.com/digital-skills-information/
 #
 # Script with all the code in the chapter, to run in RStudio or Positron.

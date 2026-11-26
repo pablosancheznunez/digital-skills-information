@@ -24,7 +24,7 @@ book:
   date-format: "D MMMM YYYY"
   language: en
   site-url: https://pablosancheznunez.com/digital-skills-information/
-  doi: 10.5281/zenodo.XXXXXXXX
+  doi: 10.5281/zenodo.24550050
   search: true
   page-navigation: true
   sidebar:
@@ -66,6 +66,10 @@ filters:
   - interactivos
   - glosario.lua
 
+bibliography: referencias.bib
+csl: apa.csl
+link-citations: true
+citations-hover: true
 format:
   live-html:
     theme:

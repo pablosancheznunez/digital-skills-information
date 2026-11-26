@@ -125,6 +125,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Forwarding an ineffective home remedy believing it works is a case of ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It is false, but without intent to deceive.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -157,6 +160,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>According to Pennycook and Rand, many people share fake news mainly through a lack of ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[A pause to think improves judgement.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -175,6 +181,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Lateral reading consists of analysing the page itself in depth before leaving it. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[That is vertical reading; lateral reading leaves the page to check it.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -198,6 +207,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>The last SIFT step, tracing to the original, looks for the ____ source</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[The original source of the claim.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -230,6 +242,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Which heuristic do we use when we trust a website because it has many positive reviews? ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Endorsement by others: reviews, likes, recommendations.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -262,6 +277,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>A review article summarising many studies is a ____ source</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It summarises and analyses primary sources.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -294,6 +312,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>What do social media mentions of an article measure?</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Altmetrics measure attention, not quality or truth.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -326,6 +347,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Spreading someone's real personal data to harm them is ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It is true, but used to cause harm.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -358,6 +382,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>A law published in the Spanish Official State Gazette (BOE) is a ____ source</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It is the original text of the law.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -390,6 +417,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>A preprint has already passed peer review. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It is a version before review.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -418,6 +448,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>To broaden a search with synonyms you use the operator ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[OR adds sets together: any of the terms.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -450,6 +483,9 @@
     <questiontext format="html">
       <text><![CDATA[<p><code>universit*</code> is an example of ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[The asterisk retrieves all endings of the stem.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -468,6 +504,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Adding concepts with AND usually increases precision and reduces recall. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Each AND requires one more concept: fewer, more relevant results.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -491,6 +530,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>According to Bates, real searching is a single query that returns the perfect set of documents. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It is a berrypicking process that changes as you read.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -514,6 +556,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>If I find 20 documents and 5 are useful, precision is ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[5 / 20 = 0.25.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -552,6 +597,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>What are quotation marks used for in a search?</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Quotation marks fix the whole phrase, in order.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -584,6 +632,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>To search the biomedical literature comprehensively, the most suitable platform is ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[PubMed is the specialised biomedical database.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -616,6 +667,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>The proportion of all relevant documents that a search retrieves is its ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Recall is also called sensitivity.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -648,6 +702,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>A thesaurus is an example of a ____ vocabulary</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It standardises terms and groups synonyms.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -666,6 +723,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>In <code>(mobile OR smartphone) AND performance</code>, the parentheses make OR be resolved before AND. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Just like in an arithmetic operation.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -694,6 +754,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>A well-written paraphrase does not need a citation because it uses your own words. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[The idea still belongs to someone else: you must cite it even if the words are yours.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -717,6 +780,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Copying while changing some words but keeping the structure of the original is called ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Changing words without changing the structure.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -735,6 +801,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>An author's moral rights cannot be waived. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Recognition of authorship cannot be transferred.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -758,6 +827,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>In a Creative Commons licence, the condition that prevents commercial use is ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[NC, non-commercial.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -796,6 +868,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Under the Spanish Intellectual Property Act, economic rights generally last for the author's life plus ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[70 years after the author's death, as a general rule.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -828,6 +903,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Submitting work generated by an AI as your own is a form of plagiarism. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It is presenting as your own work that is not.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -851,6 +929,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Why is similarity-checking software not enough to decide whether there is plagiarism?</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It measures text overlaps, not whether the source is used correctly.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -883,6 +964,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Reusing your own already-assessed work without saying so is called ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It is also a form of plagiarism.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -907,6 +991,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>The Creative Commons condition present in all licences is ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Attribution.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -945,6 +1032,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Common-knowledge facts, widely known and easy to check, do not need a citation. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[When in doubt, it is better to cite.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -973,6 +1063,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>In the author-date system, the reference list is ordered ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[By the first author's surname.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1005,6 +1098,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Vancouver and IEEE are styles of the ____ system</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[They number citations in order of appearance.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1031,6 +1127,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>The permanent identifier of a digital document included as a link in the reference is the ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<em>Digital Object Identifier</em>, permanent even if the website changes.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1049,6 +1148,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>The references generated by a reference manager are always correct. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Gilmour and Cobus-Kuo found errors in all of them: they must be checked.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1072,6 +1174,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>In APA 7, the journal title is written in italics. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Journal and volume go in italics.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1095,6 +1200,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>A similarity report of 0% guarantees that the work contains no plagiarism. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[An uncited paraphrase may not match and still be plagiarism.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1118,6 +1226,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>What is the difference between a citation and a reference?</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[The citation points to the full reference.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1150,6 +1261,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>In APA 7, a work by three or more authors is cited in the text with "et al." from the first citation. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[From the first time, unlike APA 6.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1173,6 +1287,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Which reference manager is free and open source? ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Zotero is free software.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1205,6 +1322,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>In a numeric system, the reference list is ordered by ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[The number corresponds to the order of citation.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1242,6 +1362,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>A language model generates text by predicting the most likely fragment that follows a given text. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It repeats that prediction to write the answer.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1265,6 +1388,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>An AI answer that looks correct but is false or invented is called a ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[A plausible but false answer.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1283,6 +1409,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>If an AI gives a reference with a DOI, authors and journal, the reference exists. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It may be fabricated: it must be verified.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1306,6 +1435,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Which of these uses is riskiest? ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Walters and Wilder found many fabricated references.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1338,6 +1470,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>If 3 of 12 references generated by an AI are fabricated, the proportion fabricated is ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[3 / 12 = 0.25.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1376,6 +1511,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Retrieval-augmented generation completely eliminates errors. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It improves currency, but sources must be checked.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1399,6 +1537,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Why can a language model fabricate a plausible reference?</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It produces what is plausible, not what is true; there is no intent.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1431,6 +1572,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>What a language model knows depends on its ____ data</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It may not know recent facts and may inherit their biases.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1449,6 +1593,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Detectors exist today that distinguish AI-generated text from human text with complete reliability. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Detection is one of the open technical challenges.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1472,6 +1619,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>To check whether a reference given by an AI exists, the most reliable approach is to ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[The AI may confidently confirm a false reference.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1509,6 +1659,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>The principle that Floridi and Cowls add to the four from bioethics is ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It makes the other four principles possible.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1527,6 +1680,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>An AI can be listed as co-author of a scientific article if it has written much of the text. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Authorship requires responsibility, and an AI cannot take it on.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1550,6 +1706,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Under the EU AI Act, an AI system used to assess students is ____ risk</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Education and the assessment of students are high-risk areas.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1588,6 +1747,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Social scoring of people is ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It is a prohibited practice.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1620,6 +1782,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>It is good practice to enter classmates' personal data into an AI assistant so it can write a group assignment. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It puts other people's privacy at risk.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1643,6 +1808,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>The EU AI Act follows an approach based on ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Obligations grow with the risk.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1675,6 +1843,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>What should an AI use statement include?</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[This way readers know what is yours and what is not.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1707,6 +1878,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Each person's right to decide on the use of their personal data is called informational ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[The basis of the right to data protection.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1731,6 +1905,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>Informing people that content has been generated by AI is an obligation of the ____ risk level</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It affects assistants and synthetic content.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
@@ -1763,6 +1940,9 @@
     <questiontext format="html">
       <text><![CDATA[<p>If you declare your use of AI, you are no longer responsible for any errors in the work. ____</p>]]></text>
     </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Responsibility remains with whoever signs.]]></text>
+    </generalfeedback>
     <defaultgrade>1</defaultgrade>
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
